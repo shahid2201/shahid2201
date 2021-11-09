@@ -1,0 +1,13 @@
+#To convert radians into degrees.
+
+import math
+
+x= input("Enter a number in radian:")
+try:
+    if float(x)>=0:
+        y=float(x)*180/(math.pi)
+        print(x,"radian in degrees is ", y)
+    else:
+        print("Invalid Input.")
+except:
+    print("Invalid Input.")
