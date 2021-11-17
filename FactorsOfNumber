@@ -1,0 +1,17 @@
+#Factors of a number.
+x=0
+
+try:
+    numUser=int(input("Enter a number:"))
+    while x<numUser:
+        x=x+1
+        if numUser%x==0:
+            y=numUser/x
+            print(int(y))
+    
+    
+except:
+    print("Invalid Input.")
+    
+    
+print("These are the factors of", numUser)
